@@ -39,13 +39,13 @@ class Proxy
      * URI to add before relative urls as well as default URL
      * @var string
      */
-    protected $prefix = 'https://google.com';
+    protected $prefix = 'https://www.google.com.hk';
     
     /**
      * Array of domains whose links will be routed through the proxy
      * @var array
      */
-    protected $blockedDomains = array('google.com');
+    protected $blockedDomains = array('google.com.hk','www.google.com.hk');
     
     /**
      * Mime type of page
