@@ -39,7 +39,7 @@ class Proxy
      * URI to add before relative urls as well as default URL
      * @var string
      */
-    protected $prefix = 'http://google.com';
+    protected $prefix = 'https://google.com';
     
     /**
      * Array of domains whose links will be routed through the proxy
